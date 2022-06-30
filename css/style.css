@@ -13,6 +13,17 @@ body{
    margin-top: 50;
    margin-bottom: 100px;
    text-align: center;
+   font-size: 100px;
+   color: rgb(120, 50, 50);
+}
+
+.select{
+   display: block;
+   width: 200px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   padding: 10px;
+   border: 0;
 }
 
 .list {

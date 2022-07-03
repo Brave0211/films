@@ -9,10 +9,18 @@
 </head>
 <body>
    <div class="container">
-      <h1 class="title">New Films</h1>
-      <select class="select js-select">
-         <option selected disabled>Choose</option>
-      </select>
+      <h1 class="title">Online Films</h1>
+      <div class="select-wrapper">
+         <select class="select js-select">
+            <option selected disabled>Genres</option>
+         </select>
+         <select class="select js-sel">
+            <option selected disabled>Sort</option>
+            <option value="a-z">a-z</option>
+            <option value="z-a">z-a</option>
+         </select>
+         <input class="input js-input" type="text" placeholder="search">
+      </div>
       <ul class="list js-list">
          
       </ul>
